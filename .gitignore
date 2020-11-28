@@ -29,7 +29,7 @@
 .idea/
 .vs/
 .vscode/
-/external
+#/external
 Debug/
 README.html
 Release/
