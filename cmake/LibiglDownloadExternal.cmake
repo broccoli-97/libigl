@@ -17,7 +17,7 @@ if(NOT (${CMAKE_VERSION} VERSION_LESS "3.6.3"))
 	# list(APPEND LIBIGL_BRANCH_OPTIONS GIT_SHALLOW 1)
 endif()
 
-option(LIBIGL_SKIP_DOWNLOAD "Skip downloading external libraries" OFF)
+option(LIBIGL_SKIP_DOWNLOAD "Skip downloading external libraries" ON)
 
 # Shortcut functions
 function(igl_download_project_aux name source)
